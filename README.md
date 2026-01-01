@@ -101,5 +101,25 @@ This project reflects:
 ---
 
 ## 📂 Repository Structure
+Indian-Job-Market-Intelligence/
+│
+├── data/
+│ ├── raw/
+│ └── processed/
+│
+├── notebooks/
+├── sql/
+├── dashboard/
+├── report/
+└── README.md
+
+
+---
+
+## 👤 Author
+
+**Paras Miglani**  
+B.Tech ECE | Aspiring Data Analyst / Consultant
+
 
 
