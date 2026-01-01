@@ -1,31 +1,57 @@
-# Indian Job Market Intelligence
+📊 Indian Job Market Intelligence — Power BI Dashboard
+Objective
 
-## Problem Statement
-Final-year students and early-career professionals in India struggle to decide which skills and roles to prioritize due to noisy, anecdotal, and often contradictory career advice. This project aims to bring clarity to these decisions using job market data.
+To analyze entry-level analytics and consulting job trends in India using a structured analytics workflow combining Python (data cleaning), SQL (analysis), and Power BI (visual storytelling).
 
-## Objective
-To analyze Indian job postings and identify:
-- High-demand roles suitable for freshers
-- Skills that correlate with better salary outcomes
-- Cities that offer favorable opportunity-to-competition balance
+🔍 Data Pipeline
 
-## Target Audience
-- Final-year engineering students
-- Early-career professionals (0–3 years experience)
-- Career advisors and placement teams
+Synthetic job posting data generated for initial prototyping
 
-## Key Decisions Supported
-- Skill prioritization
-- Role targeting
-- Location strategy
+Cleaned & feature-engineered using Pandas
 
-## Scope & Assumptions
-- Focused on analytics and business-related roles
-- Experience range limited to 0–3 years
-- Insights primarily applicable to metro city job markets
+Stored as structured CSV (data/processed/indian_jobs_cleaned.csv)
 
-## Deliverables
-- Cleaned and structured job market dataset
-- SQL-based analysis answering key questions
-- Interactive Power BI dashboard
-- Executive summary with actionable recommendations
+Imported into Power BI Desktop for dashboarding
+
+📈 Dashboard Highlights (Power BI)
+
+The Power BI dashboard answers key market questions:
+
+Total job demand across analytics roles
+
+Average salary (LPA) by role category
+
+Role-wise demand (Data Analyst, Business Analyst, Consulting, BI)
+
+City-wise job concentration (Bengaluru, Gurgaon, Noida, etc.)
+
+Experience expectations at entry level
+
+📁 Dashboard file:
+dashboard/Indian_Job_Market_Analysis.pbix
+
+📷 Snapshot included for quick preview.
+
+💡 Key Insights
+
+Data Analyst roles dominate entry-level hiring
+
+Bengaluru is the strongest analytics job hub
+
+Business Intelligence roles offer higher average pay but fewer openings
+
+Consulting-oriented roles are more selective, indicating higher competition
+
+🛠 Tools & Skills Used
+
+Python (Pandas)
+
+SQL
+
+Power BI
+
+Data Modeling
+
+DAX Measures
+
+Business Insight Communication
