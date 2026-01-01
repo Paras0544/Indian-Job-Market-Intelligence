@@ -1,57 +1,105 @@
-📊 Indian Job Market Intelligence — Power BI Dashboard
-Objective
+# 📊 Indian Job Market Intelligence
 
-To analyze entry-level analytics and consulting job trends in India using a structured analytics workflow combining Python (data cleaning), SQL (analysis), and Power BI (visual storytelling).
+A data analytics project analyzing **entry-level analytics & consulting job trends in India** using a structured, end-to-end workflow.
 
-🔍 Data Pipeline
+---
 
-Synthetic job posting data generated for initial prototyping
+## 🎯 Project Objective
 
-Cleaned & feature-engineered using Pandas
+To understand:
+- Demand across analytics roles
+- Salary trends (LPA)
+- City-wise job concentration
+- Entry-level experience expectations
 
-Stored as structured CSV (data/processed/indian_jobs_cleaned.csv)
+This project demonstrates **real-world analytics workflow**, not just charts.
 
-Imported into Power BI Desktop for dashboarding
+---
 
-📈 Dashboard Highlights (Power BI)
+## 🧠 Business Questions Answered
 
-The Power BI dashboard answers key market questions:
+- Which analytics roles dominate entry-level hiring?
+- What is the average salary (LPA) by role?
+- Which cities offer the most analytics jobs?
+- How much experience is typically required?
 
-Total job demand across analytics roles
+---
 
-Average salary (LPA) by role category
+## 🔄 Data Pipeline
 
-Role-wise demand (Data Analyst, Business Analyst, Consulting, BI)
+1. **Data Source**
+   - Synthetic job posting dataset (for prototyping)
+   - Fields include role, company, city, salary, experience, skills
 
-City-wise job concentration (Bengaluru, Gurgaon, Noida, etc.)
+2. **Data Cleaning & Feature Engineering (Python)**
+   - Cleaned experience ranges into numeric min/max
+   - Created salary midpoints
+   - Standardized role categories
+   - Processed skills into analyzable lists
 
-Experience expectations at entry level
+   📁 Notebook: `notebooks/01_data_understanding.ipynb`  
+   📁 Cleaned data: `data/processed/indian_jobs_cleaned.csv`
 
-📁 Dashboard file:
-dashboard/Indian_Job_Market_Analysis.pbix
+3. **SQL Analysis**
+   - Role-wise demand
+   - City-wise job distribution
+   - Salary aggregation
 
-📷 Snapshot included for quick preview.
+   📁 SQL queries: `sql/01_basic_analysis.sql`
 
-💡 Key Insights
+---
 
-Data Analyst roles dominate entry-level hiring
+## 📊 Power BI Dashboard
 
-Bengaluru is the strongest analytics job hub
+### Dashboard Highlights
+- Total job postings
+- Average salary (LPA)
+- Role-wise demand
+- City-wise concentration
+- Entry-level experience trends
 
-Business Intelligence roles offer higher average pay but fewer openings
+📁 **Dashboard file:**  
+`dashboard/Indian_Job_Market_Analysis.pbix`
 
-Consulting-oriented roles are more selective, indicating higher competition
+📸 **Preview:**  
+![Power BI Dashboard](dashboard/Screenshot%202026-01-01%20164734.png)
 
-🛠 Tools & Skills Used
+> ℹ️ GitHub cannot render `.pbix` files.  
+> Download and open in **Power BI Desktop** to explore interactively.
 
-Python (Pandas)
+---
 
-SQL
+## 💡 Key Insights
 
-Power BI
+- Data Analyst roles dominate entry-level hiring
+- Bengaluru is the strongest analytics job hub
+- Consulting roles offer higher average salaries but fewer openings
+- Most entry-level roles require **0–2 years experience**
 
-Data Modeling
+---
 
-DAX Measures
+## 🛠️ Tools & Skills Used
 
-Business Insight Communication
+- **Python** (Pandas, NumPy)
+- **SQL**
+- **Power BI**
+- **Git & GitHub**
+- **Data Analysis & Storytelling**
+
+> Note: GitHub language stats show Jupyter Notebook dominance because Power BI files are binary.
+
+---
+
+## 📌 Why This Project Matters
+
+This project reflects:
+- Real hiring patterns
+- Practical data cleaning decisions
+- Business-focused insights
+- Dashboard storytelling used in consulting & analytics roles
+
+---
+
+## 📂 Repository Structure
+
+
